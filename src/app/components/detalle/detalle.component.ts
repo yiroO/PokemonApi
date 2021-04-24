@@ -43,6 +43,7 @@ export class DetalleComponent implements OnInit {
         console.log('data', this.data);
       }
     );
+    
   }
 
 }
