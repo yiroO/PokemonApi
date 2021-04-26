@@ -1,34 +1,33 @@
 <div class="container animated fadeIn">
     <div class="header">
         <img class="avatar" src="assets/img/perfil.png" alt="Perfil">
-        <h3 class="user-name"><b>FERNANDO YAR VALENCIA NELO</b></h3>
-        <h5 class="user">Desarrollador FrontEnd Jr.</h5>
+        <h3 class="user-name"><b>{{data.name}}</b></h3>
+        <h5 class="user">{{data.titulo}}</h5>
     </div>
     <ul class="socials">
         <li>
             <i class="fas fa-at icon"></i>
             <a href="mailto:ingfernandoyair@gmail.com">
-        ingfernandoyair@gmail.com
+        {{data.email}}
       </a>
         </li>
         <li>
             <i class="fab fa-linkedin-in icon"></i>
             <a href="https://www.linkedin.com/in/fernandoyair">
-              fernandoyair
+              {{data.linke}}
       </a>
         </li>
         <li>
             <i class="fas fa-phone-volume icon"></i>
             <a class="format">
-        2381732107
+        {{data.tel}}
       </a>
         </li>
     </ul>
     <div class="about">
         <h3>Acerca de</h3>
         <p class="text-justify">
-            Soy una persona joven, dinámica, con facilidad de integración y con muy buena habilidad de comunicación. Estoy buscando traer mis habilidades aprendidas durante mis estudios, pasantías y experiencia laboral. Mi objetivo es seguir aprendiendo y creciendo
-            profesionalmente. He adquirido conocimientos en la parte del FrontEnd con JavaScript, HTML5, CSS3 y Angular. En la parte del BackEnd con Java, Spring Boot, Spring MVC y en base de datos como MySQL, SqlServer y Oracle.
+            {{data.desc}}
         </p>
     </div>
 </div>
