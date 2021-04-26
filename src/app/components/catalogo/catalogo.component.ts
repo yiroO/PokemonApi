@@ -10,7 +10,6 @@ import { Route, Router } from '@angular/router';
   styleUrls: ['./catalogo.component.css'],
 })
 export class CatalogoComponent implements OnInit {
-  filter = '';
   searchPokemon:any[] = [];
   displayedColumns: string[] = ['id', 'img' , 'nombre'];
   pokmonData: any[] = [];
@@ -26,7 +25,6 @@ export class CatalogoComponent implements OnInit {
     for (let i = 1; i < 150; i++) {
       this.pokeService.getPokemonid(i).subscribe(
         (resp: any) => {
-          console.log('resp', resp);
           data = {
             nombre: resp.name,
             img: resp.sprites.front_default,
@@ -58,15 +56,6 @@ export class CatalogoComponent implements OnInit {
       this.route.navigate(['/detalle', i]);
     }
     console.log('id', i);
-  }
-
-  buscarPokemon(termino:string){
-    this.pokeService.buscarPokemon(termino).subscribe(
-      data =>{
-        this.searchPokemon = data.name;
-        console.log('searchPokemon', this.searchPokemon);
-      }
-    );
   }
 
 }

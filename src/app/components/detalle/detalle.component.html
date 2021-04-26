@@ -1,6 +1,6 @@
-<h1><b>{{poke | uppercase}}</b></h1>
+<h1 class="animated fadeIn"><b>{{poke | uppercase}}</b></h1>
 <hr>
-<div class="row">
+<div class="row animated fadeIn">
     <div class="col-md-4">
         <img [src]="pokeImg" class="card-img-top img-fluid" [alt]="poke">
         <br><br>
@@ -8,26 +8,33 @@
     </div>
 
     <div class="col-md-8">
-        <div class="text text-center">
-            <h3 class="text-center a">{{poke | uppercase}}</h3>
+        <div class="row">
+            <div class="col text text-center">
+                <h3 class="text-center a">{{poke | uppercase}}</h3>
+            </div>
+            <div class="col">
+                <mat-chip-list aria-label="Fish selection">
+                    <mat-chip selected>Type: {{type}}</mat-chip>
+                </mat-chip-list>
+            </div>
+            <div class="col">
+                <mat-chip-list aria-label="Fish selection">
+                    <mat-chip selected>Data: {{abilities}}</mat-chip>
+                </mat-chip-list>
+            </div>
         </div>
-        <!-- <div class="col-col-sm-7">
-            <mat-chip-list aria-label="Fish selection">
-                Tipo:
-                <mat-chip color="primary" selected>{{type }}</mat-chip>
-            </mat-chip-list>
-        </div> -->
+
         <hr>
         <div>
             <h3 class="text text-center"><b><span>RESUMEN</span></b></h3>
-            <mat-chip-list aria-label="Fish selection">
-                <mat-chip selected>Type: {{type}}</mat-chip>
-                <mat-chip selected>Weight: {{weight}}</mat-chip>
-                <mat-chip selected>Height: {{respons.height}}</mat-chip>
-            </mat-chip-list>
-            <mat-chip-list aria-label="Fish selection" *ngFor="let item of respons">
-                <mat-chip selected>Data: {{item.abilities[0].ability.name}}</mat-chip>
-            </mat-chip-list>
+            Peso:
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" [style.width]="respons.weight + '%'" [attr.ariaValuenow]="respons.weight" aria-valuemin="0" aria-valuemax="100">{{respons.weight}}%</div>
+            </div>
+            Altura:
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [style.width]="respons.height + '%'" [attr.ariaValuenow]="respons.height" aria-valuemin="0" aria-valuemax="100">{{respons.height}}</div>
+            </div>
         </div>
     </div>
 

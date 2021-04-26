@@ -34,16 +34,14 @@ export class DetalleComponent implements OnInit {
       (resp: any) =>{
         this.poke = resp.name;
         this.type = resp.types[0].type.name;
+        this.abilities = resp.abilities[0].ability.name;
         this.pokeImg = resp.sprites.front_default;
-        this.weight = resp.weight;
+        // this.weight = resp.weight;
         this.respons = resp;
-        // for (const iterator of resp.abilities) {
-        //   this.abilities = iterator;
-        // }
-        console.log('data', this.data);
+        console.log('data', resp);
       }
     );
-    
+
   }
 
 }

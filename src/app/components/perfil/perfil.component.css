@@ -1,32 +1,64 @@
-.a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13pt;
-    margin: 0%;
-    padding: 0%;
+.header {
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background-image: url('/assets/img/fondoAvatar1.png');
 }
 
-.b {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10pt;
-    color: dimgray;
-    margin: 0%;
-    padding: 0%;
+.avatar {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-.c {
-    margin: 0 2 0 0;
-    padding: 0%;
+.user-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
     color: cadetblue;
-    background-color: darkslategray;
 }
 
-.d {
-    border: none;
+a:hover {
+    color: cadetblue;
 }
 
-.e {
-    width: 230px;
-    border-radius: 45px;
-    margin-right: auto;
-    display: block;
+.format {
+    color: cadetblue;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.about {
+    padding: 10px;
+}
+
+.about h3 {
+    color: rgb(56, 55, 55);
+    font-size: 16px;
+}
+
+.about p {
+    color: rgb(56, 55, 55);
+    font-size: 14px;
 }
