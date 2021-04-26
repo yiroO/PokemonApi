@@ -2,7 +2,8 @@
     text-align: center;
     height: 300px;
     padding: 12px;
-    background-image: url('assets/img/fondoAvatar1.png');
+    background-color: rgb(63, 63, 90);
+    /* background-image: url('assets/img/fondoAvatar1.png'); */
 }
 
 .avatar {
@@ -21,12 +22,13 @@
 .socials {
     list-style: none;
     text-align: center;
+    font-size: 20px;
     padding: 0;
 }
 
 .socials li {
     display: inline-block;
-    margin: 5px;
+    margin: 13px;
 }
 
 a {
@@ -60,5 +62,5 @@ a:hover {
 
 .about p {
     color: rgb(56, 55, 55);
-    font-size: 14px;
+    font-size: 16px;
 }
