@@ -2,7 +2,7 @@
     text-align: center;
     height: 300px;
     padding: 12px;
-    background-image: url('/assets/img/fondoAvatar1.png');
+    background-image: url('assets/img/fondoAvatar1.png');
 }
 
 .avatar {
