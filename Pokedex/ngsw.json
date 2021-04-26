@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619424144290,
+  "timestamp": 1619425134858,
   "index": "https://yiroO.github.io/PokemonApi/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://yiroO.github.io/PokemonApi/favicon.ico",
         "https://yiroO.github.io/PokemonApi/index.html",
-        "https://yiroO.github.io/PokemonApi/main.426cd9db7f981dc87c3b.js",
+        "https://yiroO.github.io/PokemonApi/main.629f34dea5a115cf31fc.js",
         "https://yiroO.github.io/PokemonApi/manifest.webmanifest",
         "https://yiroO.github.io/PokemonApi/polyfills.a4021de53358bb0fec14.js",
         "https://yiroO.github.io/PokemonApi/runtime.e227d1a0e31cbccbf8ec.js",
@@ -56,8 +56,8 @@
     "https://yiroO.github.io/PokemonApi/assets/img/fondoAvatar1.png": "c102541eafc60694360b585c9abfa28657155fb7",
     "https://yiroO.github.io/PokemonApi/assets/img/perfil.png": "7faad7c4e5c353c7ae54e5ef59e2c72ea7481bdb",
     "https://yiroO.github.io/PokemonApi/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://yiroO.github.io/PokemonApi/index.html": "431be7f5cd19e494e0b8ff2249471392642661d0",
-    "https://yiroO.github.io/PokemonApi/main.426cd9db7f981dc87c3b.js": "3f8bf0fbb762b1826c64e1c1db34f7bc5e7625bc",
+    "https://yiroO.github.io/PokemonApi/index.html": "85ba7d12769bb282ec747f496927f10aff23230c",
+    "https://yiroO.github.io/PokemonApi/main.629f34dea5a115cf31fc.js": "00407ad4056a9084ad9d169e8db70c12e5234f0e",
     "https://yiroO.github.io/PokemonApi/manifest.webmanifest": "6c06791fe46f71487b09ac12b0e5442fa1ba1a59",
     "https://yiroO.github.io/PokemonApi/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "https://yiroO.github.io/PokemonApi/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
